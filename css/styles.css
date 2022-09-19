@@ -10930,20 +10930,20 @@ p {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 3.5rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: #343a40;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
   }
   #mainNav.navbar-shrink .navbar-brand svg,
 #mainNav.navbar-shrink .navbar-brand img {
-    height: 1.5rem;
+    height: 2.5rem;
   }
   #mainNav .navbar-nav .nav-item {
     margin-right: 1rem;
@@ -10957,7 +10957,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../assets/img/header-bg.jpg");
+  background-image: url("../assets/img/wallpaperflare.com_wallpaper.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -10996,17 +10996,17 @@ header.masthead .masthead-heading {
     margin-bottom: 4rem;
   }
 }
-#portfolio .portfolio-item {
+#categorias .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
 }
-#portfolio .portfolio-item .portfolio-link {
+#categorias .portfolio-item .portfolio-link {
   position: relative;
   display: block;
   margin: 0 auto;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+#categorias .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
   position: absolute;
   width: 100%;
@@ -11017,25 +11017,25 @@ header.masthead .masthead-heading {
   opacity: 0;
   transition: opacity ease-in-out 0.25s;
 }
-#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+#categorias .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
   font-size: 1.25rem;
   color: white;
 }
-#portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
+#categorias .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 1;
 }
-#portfolio .portfolio-item .portfolio-caption {
+#categorias .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
   background-color: #fff;
 }
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
+#categorias .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
 }
-#portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
+#categorias .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -11265,55 +11265,55 @@ header.masthead .masthead-heading {
   height: 2.75rem;
 }
 
-section#contact {
+section#contactos {
   background-color: #212529;
   background-image: url("../assets/img/map-image.png");
   background-repeat: no-repeat;
   background-position: center;
 }
-section#contact .section-heading {
+section#contactos .section-heading {
   color: #fff;
 }
-section#contact form#contactForm .form-group {
+section#contactos form#contactForm .form-group {
   margin-bottom: 1.5rem;
 }
-section#contact form#contactForm .form-group input,
-section#contact form#contactForm .form-group textarea {
+section#contactos form#contactForm .form-group input,
+section#contactos form#contactForm .form-group textarea {
   padding: 1.25rem;
 }
-section#contact form#contactForm .form-group input.form-control {
+section#contactos form#contactForm .form-group input.form-control {
   height: auto;
 }
-section#contact form#contactForm .form-group-textarea {
+section#contactos form#contactForm .form-group-textarea {
   height: 100%;
 }
-section#contact form#contactForm .form-group-textarea textarea {
+section#contactos form#contactForm .form-group-textarea textarea {
   height: 100%;
   min-height: 10rem;
 }
-section#contact form#contactForm p.help-block {
+section#contactos form#contactForm p.help-block {
   margin: 0;
 }
-section#contact form#contactForm .form-control:focus {
+section#contactos form#contactForm .form-control:focus {
   border-color: #ffc800;
   box-shadow: none;
 }
-section#contact form#contactForm ::-webkit-input-placeholder {
+section#contactos form#contactForm ::-webkit-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #ced4da;
 }
-section#contact form#contactForm :-moz-placeholder {
+section#contactos form#contactForm :-moz-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #ced4da;
 }
-section#contact form#contactForm ::-moz-placeholder {
+section#contactos form#contactForm ::-moz-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #ced4da;
 }
-section#contact form#contactForm :-ms-input-placeholder {
+section#contactos form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #ced4da;
